@@ -1,10 +1,10 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "Hyperglance 6.8.47 Trial",
+	"Description": "Hyperglance 6.8.48",
 	"Parameters": {
 		"InstanceType": {
 			"Type": "String",
-			"Default": "t3.medium",
+			"Default": "t3.large",
 			"AllowedValues": [
 				"t2.medium",
 				"t2.large",
@@ -180,70 +180,70 @@
 	"Mappings": {
 		"RegionMap": {
 			"us-east-1": {
-				"ImageIdent": "ami-09b1220273a1280ff"
+				"ImageIdent": "ami-0add6e9dfe8107698"
 			},
 			"us-east-2": {
-				"ImageIdent": "ami-02eeb8a2b7e4de0b2"
+				"ImageIdent": "ami-03a1b5a830ca5553f"
 			},
 			"us-west-1": {
-				"ImageIdent": "ami-0b062de12d23630b3"
+				"ImageIdent": "ami-0f513432ac9a27cf3"
 			},
 			"us-west-2": {
-				"ImageIdent": "ami-017db9ad996591a4c"
+				"ImageIdent": "ami-0798e974246b7e5fe"
 			},
 			"ca-central-1": {
-				"ImageIdent": "ami-0d7231e8af8079f27"
+				"ImageIdent": "ami-0d2a270122d801858"
 			},
 			"eu-west-1": {
-				"ImageIdent": "ami-0e543190bd869fdd4"
+				"ImageIdent": "ami-02a63d0ff098296f9"
 			},
 			"eu-central-1": {
-				"ImageIdent": "ami-01f90bc111ba31079"
+				"ImageIdent": "ami-090405c5428440480"
 			},
 			"eu-west-2": {
-				"ImageIdent": "ami-0d62163a1d8a083ebb"
+				"ImageIdent": "ami-0f25d1100cd9268dd"
 			},
 			"eu-west-3": {
-				"ImageIdent": "ami-0695008bb12c8e1ac"
+				"ImageIdent": "ami-0194292af9171ef0c"
 			},
 			"eu-north-1": {
-				"ImageIdent": "ami-0e6b2e362fce14a2a"
+				"ImageIdent": "ami-0d367829627b761fb"
 			},
 			"eu-south-1": {
-				"ImageIdent": "ami-081515499ff991c88"
+				"ImageIdent": "ami-0c95e9c4960fecf55"
 			},
 			"ap-northeast-1": {
-				"ImageIdent": "ami-07b7cafebbb22e4d7"
+				"ImageIdent": "ami-02734cc17eaff908c"
 			},
 			"ap-northeast-2": {
-				"ImageIdent": "ami-058f91b7d56af5350"
+				"ImageIdent": "ami-03a2f3a2a45eb1e62"
 			},
 			"ap-southeast-1": {
-				"ImageIdent": "ami-0e6d54c04854dc232"
+				"ImageIdent": "ami-017b3526d970a919e"
 			},
 			"ap-southeast-2": {
-				"ImageIdent": "ami-0200cb4d8f548a7a2"
+				"ImageIdent": "ami-011f1bc73e645e9bd"
 			},
 			"ap-south-1": {
-				"ImageIdent": "ami-0541bb879f27ec893"
+				"ImageIdent": "ami-01b4f7322cb11ce76"
 			},
 			"ap-east-1": {
-				"ImageIdent": "ami-0db29534e677680c5"
+				"ImageIdent": "ami-04947aff3848657b3"
 			},
 			"sa-east-1": {
-				"ImageIdent": "ami-0c1f318fba64304b2"
+				"ImageIdent": "ami-0143e5b294df65d22"
 			},
 			"af-south-1": {
-				"ImageIdent": "ami-03c6fb96c4322e659"
+				"ImageIdent": "ami-0542e73dd06a98368"
 			},
 			"me-south-1": {
-				"ImageIdent": "ami-03c5a200db12200cf"
+				"ImageIdent": "ami-0d6a13dc0b606d3e2"
 			},
 			"us-gov-east-1": {
-				"ImageIdent": "ami-04da321cb755238dc"
+				"ImageIdent": "ami-000ec92a21e1412e2"
 			},
 			"us-gov-west-1": {
-				"ImageIdent": "ami-03081104b56a7ffec"
+				"ImageIdent": "ami-0c262e5f2ebc8cf05"
 			}
 		}
 	},
